@@ -1,0 +1,316 @@
+body{
+    font-family:  Helvetica , sans-serif;
+    line-height: 1.43;
+    color: #222222;
+    background-color: #fff;
+    margin: 0;
+}
+nav{
+    display: block;
+    
+}
+.nav-tag{
+    margin: 10px;
+    padding-left: 40px;
+    align-items: center;
+}
+.airbnb-logo {
+    
+}
+
+.experiences-stays{
+    padding-left: 340px;
+
+}
+.experiences-stays button{
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+.airbnb-search{
+    padding-left: 315px;
+}
+.menu-profile-div{
+    padding-left: 10px;
+    
+}
+.menu-profile {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.main-details {
+    padding: 10px 29px;
+    margin-left: 284px;
+    width: 44%;
+    height: 57px;
+    border: 1px solid;
+    border-radius: 40px;
+}
+p{
+    font-size: larger;
+}
+.main-details button{
+    border: none;
+    border-radius: 29px;
+    border-width: 19px;
+    text-align: left;
+}
+.airbnb-logo , .experiences-stays , .airbnb-search , .row-icons{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 32px;
+    height: fit-content;
+}
+.airbnb-logo h2{
+  color: #FF385C;
+}
+.airbnb-home{
+    border: none;
+    background-color: #fff;
+}
+.world-button {
+    width: 40px;
+    height: 21px;
+    border: none;
+    background-color: white;
+}
+.world-search{
+    width: 27px;
+    height: 22px;
+}
+.profile{
+    width: 36px;
+    height: 34px;
+}
+.menu{
+    width: 21px;
+    height: 24px;
+}
+.nav-tag , .main-details {
+    display: flex;
+}
+header{
+    display: block;
+}
+.icon-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        margin: 10px 7px;
+        cursor: pointer;
+        height: 62px;  
+}
+
+.icon-text img , .arrow-icon img{
+    max-width: 25px;
+}
+.text{
+    font-size: 10px;
+}
+.row-icons{
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    margin: 60px 20px;
+    justify-content: space-between;
+    gap: 43px;
+}
+.icon1{
+    width: 70%;
+}
+.arrow{
+    width: 20px;
+    
+}
+.search{
+    background: #FF385C;
+}
+.arrow-icon {
+    width: 25px;
+}
+.arrow-img{
+    border: none;
+    border-radius: 20px;
+}
+.images-section2{
+    margin-top: -90px;
+}
+.getaways , .support , footer{
+    padding: 30px;
+}
+
+
+.images-section1 , .images-section2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 50px 20px;
+}
+div.images1 , div.images2 , div.images3 , div.images4 , div.images5 , div.images5 , div.images6 , div.images7 , div.images8 ,div.images9 ,div.images10 ,div.images11 ,div.images12 ,div.images13 ,div.images14 ,div.images15 ,div.images16 ,div.images17 ,div.images18 ,div.images19 ,div.images20 ,div.images21 ,div.images22 {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 225px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+div.images1{
+    background-image: url(images/img1.webp);
+}
+div.images2{
+    background-image: url(images/img2.webp);
+}
+div.images3{
+    background-image: url(images/img3.webp);
+}
+div.images4{
+    background-image: url(images/img4.webp);
+}
+div.images5{
+    background-image: url(images/img5.webp);
+}
+div.images6{
+    background-image: url(images/img6.webp);
+}
+div.images7{
+    background-image: url(images/img7.webp);
+}
+div.images8{
+    background-image: url(images/img8.webp);
+}
+div.images9{
+    background-image: url(images/img9.webp);
+}
+div.images10{
+    background-image: url(images/img10.webp);
+}
+div.images11{
+    background-image: url(images/img11.jpeg);
+}
+div.images12{
+    background-image: url(images/img12.webp);
+}
+div.images13{
+    background-image: url(images/img13.webp);
+}
+div.images14{
+    background-image: url(images/img14.webp);
+}
+div.images15{
+    background-image: url(images/img15.jpg);
+}
+div.images16{
+    background-image: url(images/img16.webp);
+}
+div.images17{
+    background-image: url(images/img17.webp);
+}
+div.images18{
+    background-image: url(images/img18.webp);
+}
+div.images19{
+    background-image: url(images/img19.webp);
+}
+div.images20{
+    background-image: url(images/img20.webp);
+}
+div.images21{
+    background-image: url(images/img21.jpeg);
+}
+div.images22{
+    background-image: url(images/img22.webp);
+}
+
+div.images-text{
+    display: block;
+}
+
+.section2{
+    margin-top: -100px;
+}
+div.time-running{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+.time-running {
+    opacity: 0.9;
+}
+.time-running img{
+   height: 25px;
+}
+.time-running button{
+    height: 28px;
+    border-radius: 11px;
+    border: none;
+}
+section h1{
+    padding: 50px 20px;
+}
+.getaways-texts{
+    display: flex;
+    gap: 25px;
+
+}
+.images-section2 button {
+    background: none;
+     border: none;
+}
+ .lists , .support{
+    display: flex;
+   
+ }
+.unordered{
+    list-style-type: none;
+}
+span , h4{
+    color: #7f7b7b;
+}
+.getaways h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+h1{
+    font-size: 30px;
+}
+h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer-icons {
+    display: flex;
+    padding: 0px 15px;
+    margin: 0px -4px;
+    align-items: center;
+    
+}
+.world{
+    margin: 6px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.footer-icons img{
+    width: 29px;
+    height: 26px;
+}
+.getaways , .support, footer{
+    background: #F7F7F7;
+    margin-top: -8px;
+}
