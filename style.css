@@ -131,6 +131,9 @@ header{
     background: #FF385C;
     padding: auto;
 }
+.support li {
+    line-height: 2;
+}
 .arrow-icon {
     width: 25px;
 }
